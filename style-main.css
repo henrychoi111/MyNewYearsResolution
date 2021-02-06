@@ -1,0 +1,105 @@
+/* Write some CSS below */
+
+body{
+	font-family: "Arial"
+}
+
+
+h1{
+	font-family: "Chivo";
+	color: #f6f6f6;
+	font-size: 40px
+	
+}
+
+h2{
+	font-family: "Chivo";
+	color: #0a043c;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+h3{
+	font-family: "Chivo";
+	color: #5eaaa8;
+	margin-top: 15px;
+	
+}
+
+a{
+	text-decoration: none;
+	padding: 8px;
+	transition: 0.5s;
+}
+
+a:hover{
+	background-color: #c7ffd8;
+}
+
+p{
+	font-size: 15px;
+	color: black;
+}
+
+
+.container{
+	background-color: white;
+	padding: 0 80px;
+}
+
+.banner{
+	padding: 100px 0 100px 0;
+	background-image: url('images/background.jpg');
+	text-align: center;
+	background-size: cover;
+}
+
+.banner > p{
+	line-height: 30px
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.banner-red > a{
+	color: #f6f6f6;
+	background-color: red;
+	line-height: 30px;
+	
+}
+
+.banner-word > p{
+	color: #f7f6e7;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-white {
+	background-color: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 300px;
+	text-align: center;
+	padding: 20px;
+	margin: 8px;
+
+}
+
+.footer{
+	background: #351f39;
+	text-align: center;
+	padding: 24px 0;
+	margin-top: 20px;
+}
+
+.footer > p{
+	color: white;
+}
+
+
